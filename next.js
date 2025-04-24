@@ -67,25 +67,6 @@ function ifSignUp() {
   submitButton.setAttribute("onclick", "toSignUp()");
   authToggle.setAttribute("onclick", "ifLogin()");
 }
-// const button = document.getElementById("authSubmit")
-// console.log(button)
-// function toSignUp(){
-//     function toLogin(){
-//         console.log("kam hogya")
-//     }
 
-// console.log(button.setAttribute(onclick,toLogin()))
-//     convert.innerHTML +=`<div style="position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index:9999;">
-//     <div style="background:white; padding:20px; border-radius:10px; width:300px; text-align:center;">
-//       <h3 id="authTitle">Login</h3>
-//       <input id="authUsername" placeholder="Username" style="width:100%; padding:8px; margin-bottom:10px;" />
-//       <input type="password" id="authPassword" placeholder="Password" style="width:100%; padding:8px;" />
-//       <div style="margin:10px 0;">
-//         <button id="authSubmit" style="padding:8px 16px;" onclick="">Login</button>
-//       </div>
-//       <p id="authToggle" style="color:blue; cursor:pointer">Don't have an account?SignUp</p>
-//       <p id="authMsg" style="color:red;"></p>
-//     </div>
-//   </div>`
 
-// }
+ 
